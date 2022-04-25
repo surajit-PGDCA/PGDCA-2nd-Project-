@@ -1,0 +1,473 @@
+<! DOCTYPE html>
+<html>
+<head>
+<title>IIIT Guwahati</title>
+<style>
+.header{
+
+	width:100%
+	
+}
+.header img{
+	
+	position:absolute;
+	left:7%;
+	
+
+}
+.dropdown {
+	position:relative;
+	top:100px;
+	left:7%;
+	width:95%;
+	z-index:1;
+}
+.dropdown ul {
+	list-style:none;
+	padding:0;
+	
+}
+.dropdown ul li{
+	background:navy;
+	text-align:center;
+	border:1px solid black;
+	float:left;
+	width:120px;
+	height:30px;
+	line-height:30px;
+	transition:0.5s;
+	
+}
+.dropdown ul li a{
+	color:white;
+	text-decoration:none;
+	font-size:16px;
+	display:block;
+}
+.dropdown ul li:hover{
+	background:lightgreen;
+}
+.dropdown ul ul {
+	display:none;
+}
+
+.dropdown ul li:hover>ul{
+	display:block;
+
+}
+
+.slide{
+	
+	position:absolute;
+	width:60%;
+	height:250px;
+	background-image:url('iiit campus3.jpg');
+	background-size:100% 100%;
+	top:25%;
+	left:8%;
+	animation: surajit 20s linear infinite;
+}
+
+@keyframes surajit{
+
+0%{ 
+	background-image:url('iiit 1.png');
+}
+25%{ 
+	background-image:url('iiit 2.jpeg');
+}
+50%{ 
+	background-image:url('iiit 3.jpg');
+}
+75%{ 
+	background-image:url('iiit 4.jpg');
+}
+100%{ 
+	background-image:url('iiit 5.jpg');
+}
+
+}
+
+.right{
+	position:relative;
+	width:21%;
+	height:250px;
+	top:18%;
+	left:70%;
+	overflow-y:auto;
+
+
+}
+
+.right a{
+	text-decoration:none;
+	color:black;
+	
+}
+.right a span{
+	background-color:red;
+	color:white;
+	padding:1px;
+	margin-left:5px;
+	border-radius:2px;
+	font-size:10px;
+
+}
+
+.cont{
+	
+	position:relative;
+	width:50%;
+	height:20px;
+	background:;
+	top:20%;
+	left:7%;
+	color:green;
+	text-size;10px;
+	padding:2px;
+}
+.fa-bars{
+	color:green;
+	padding:2px;
+	line-height:30px;
+}
+.cont2{
+	
+	position:relative;
+	width:30%;
+	height:20px;
+	background:;
+	top:16%;
+	left:58%;
+	color:green;
+	text-size;10px;
+	padding:2px;
+	text-align:right;
+	padding:5px;
+}
+
+.fa-recycle{
+	color:green;
+	padding:5px;
+	line-height:30px;
+}
+
+.photo{
+	
+	position:absolute;
+	top:450px;
+	float:left;
+	left:8%;
+}
+.ql{
+	position:absolute;
+	top:450px;
+	left:72%;
+	transition:0.5s;
+	color:green;
+}
+
+.ql ul li{
+	margin:2px;
+	padding:2px;
+	list-style:none;
+}
+.ql ul li a{
+	text-decoration:none;
+}
+.ql ul li:hover{
+	background:yellow;
+}
+
+.ql ul li:hover>ul{
+	display:block;
+
+}
+.footer1{
+	position:absolute;
+	top:590px;
+	left:7%;
+}
+.footer2{
+	border:1px solid black;
+	background-color:lightgrey;
+	position:absolute;
+	margin-top:35%;
+	width:100%;
+	height:30px;
+	font-size:10px;
+	line-height:20px;
+}
+
+.fa-facebook{
+	color:#3b5998;
+	
+
+}
+.fa-twitter{
+	color:#55acee;
+}
+
+
+.about{
+	
+	position:relative;
+	width:60%;
+	top:25%;
+	left:7%;
+	font-size:13px;
+}
+.about h3{
+	color:blue;
+}
+
+.simg{
+	
+	position:relative;
+	width:20%;
+	top:-200%;
+	left:68%;
+}
+
+.vision{
+	
+	position:relative;
+	width:85%;
+	top:25%;
+	left:7%;
+}
+.vision p{
+	color:blue;
+}
+
+.acts{
+	width:85%;
+	position:relative;
+	top:30%;
+	left:8%;
+}
+.acts h3{
+	color:#003366;
+}
+.acts a{
+	text-decoration:none;
+}
+.rti{
+	width:85%;
+	position:relative;
+	top:30%;
+	left:8%;
+}
+
+.rti h3{
+	color:blue;
+	text-align:center;
+}
+.rti a{
+	text-decoration:none;
+}
+.rti p{
+	color:green;
+}
+
+.external{
+	width:85%;
+	position:relative;
+	top:30%;
+	left:8%;
+}
+
+.external ul li {
+	padding:7px;
+	list-style:none;
+	font-size:25px;
+}
+.external ul li a{
+	text-decoration:none;
+
+}
+.contus{
+	width:85%;
+	position:relative;
+	top:30%;
+	left:8%;
+}
+
+.contus img{
+	height:200px;
+	width:200px;
+	float:right;
+}
+
+.hotel{
+	width:85%;
+	position:relative;
+	top:70%;
+	left:8%;
+}
+
+.admini{
+	width:85%;
+	position:relative;
+	top:30%;
+	left:8%;
+}
+.admini ul{
+	list-style:none;
+	display:flex;
+}
+.admini ul li{
+	padding:10px;
+	border:1px solid black;
+}
+.admini ul li a{
+	text-decoration:none;
+
+}
+
+.prog{
+	width:85%;
+	position:relative;
+	top:30%;
+	left:8%;
+}
+.prog p{
+	color:black;
+}
+.prog h3{
+	color:#003366;
+}
+.prog a{
+	text-decoration:none;
+}
+
+.d1{
+	
+	width:60%;
+	position:relative;
+	top:30%;
+	left:8%;
+}
+.d2{
+	
+	width:60%;
+	position:relative;
+	top:35%;
+	left:8%;
+}
+.d3{
+	
+	width:60%;
+	position:relative;
+	top:45%;
+	left:8%;
+}
+.d4{
+	
+	width:60%;
+	position:relative;
+	top:55%;
+	left:8%;
+}
+
+.d1img{
+	
+	width:23%;
+	position:relative;
+	top:-160%;
+	left:70%;
+}
+.d1img img{
+	height:auto;
+	width:100%;
+}
+
+.d2img{
+	
+	width:23%;
+	position:relative;
+	top:-140%;
+	left:70%;
+}
+.d2img img{
+	height:150px;
+	width:100%;
+}
+
+.d3img{
+	
+	width:23%;
+	position:relative;
+	top:-100%;
+	left:70%;
+}
+.d3img img{
+	height:120px;
+	width:100%;
+}
+
+.d4img{
+	
+	width:23%;
+	position:relative;
+	top:-80%;
+	left:70%;
+}
+.d4img img{
+	height:150px;
+	width:100%;
+}
+
+.cal{
+	width:85%;
+	position:relative;
+	top:30%;
+	left:8%;
+}
+.cal ul li a{
+	text-decoration:none;
+}
+
+.cse{
+	width:22%;
+	position:relative;
+	top:30%;
+	left:8%;
+}
+.cse img{
+	height:150px;
+	width:150px;
+}
+.sf{
+	width:85%;
+	position:relative;
+	top:30%;
+	left:8%;
+}
+.sf img{
+	height:60%;
+	width:70%;
+	
+
+}
+.cl{
+	width:85%;
+	position:relative;
+	top:30%;
+	left:8%;
+}
+
+
+
+
+
+
+
+
+
+
+</style>
+</head>
+
+</body>
+</html>
